@@ -4,7 +4,7 @@ from shop.models import Product
 
 
 class Cart:
-    def __int__(self, request):
+    def __init__(self, request):
         """Инициализировать корзину."""
         self.session = request.session
         cart = self.session.get(settings.CART_SESSION_ID)
