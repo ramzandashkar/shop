@@ -132,3 +132,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CART_SESSION_ID = 'cart'
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+# REDIS configs
+REDIS_HOST = 'localhost'
+REDIS_PORT = 6379
+REDIS_DB = 0
